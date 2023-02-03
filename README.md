@@ -20,4 +20,6 @@ which helped manage the dependencies and build process for the application.
   **java -jar myFirstTelegramBot-0.0.1-SNAPSHOT.jar**
   
   **Preview**
+  
+  
   ![image](https://user-images.githubusercontent.com/46052419/216592632-a632fd10-bf81-4389-9cad-0fa77f257a14.png)
