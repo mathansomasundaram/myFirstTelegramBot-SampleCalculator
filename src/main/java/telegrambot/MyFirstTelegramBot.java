@@ -39,7 +39,7 @@ public class MyFirstTelegramBot extends TelegramLongPollingBot{
 		SendMessage message = new SendMessage();
 		String messageText = update.getMessage().getText();
 		String loggedUser=update.getMessage().getFrom().getFirstName();
-		if(messageText.contains("/Start")) {
+		if(messageText.equalsIgnoreCase("/Start")) {
 			message.setText("Hello "+loggedUser+" I'm designed to perform basic mathematical calculation");
 		}else {
 			if (!stack.isEmpty())
